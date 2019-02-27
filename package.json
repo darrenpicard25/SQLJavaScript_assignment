@@ -4,6 +4,7 @@
   "description": "This the the assignment from week 4 Day 2",
   "main": "test_script.js",
   "dependencies": {
+    "knex": "^0.16.3",
     "pg": "^7.8.1"
   },
   "devDependencies": {},
