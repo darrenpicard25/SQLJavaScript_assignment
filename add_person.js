@@ -21,6 +21,7 @@ function main() {
                                   })
                                   .catch( err => {
                                     console.log('Error : ' + err);
+                                    knex.destroy();
                                   });
 }
 
